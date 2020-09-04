@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+def numberofones(a,b):
+    s=""
+    for i in range(a,b+1):
+        s=s+str(i)
+    return(list(s).count('1'))
+print(numberofones(a,b))
